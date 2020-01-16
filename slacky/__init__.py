@@ -25,6 +25,7 @@ class BotMetaData:
         self.warning_count = 0
         self.message_count = 0
         self.errors = []
+        self.msgstatus = False
         
     def error(self, e):
         print(Prefixes.error + str(e))
@@ -139,7 +140,7 @@ try:
     config = lc(config_path)
     if not config:
         print(Prefixes.warning + 'No Config File Found. Starting Wizard.')
-        print(Prefixes.start + 'Enter Legacy Workspace Token (Starts w/ xoxp)')
+        print(Prefixes.start + 'Enter Legacy Workspace Token DO NOT SHARE THIS WITH ANYBODY')
         token = input('> ')
         print(Prefixes.start + 'Enter User ID. Google How To Get This.')
         user_id = input('> ')
