@@ -1,3 +1,25 @@
+### Update 1.6:
+
+  - Adds `deepfry` command from forked [deeppyer](https://github.com/Ovyerus/deeppyer)
+  - `deepfry` is a custom command and must be loaded in `plugins/__init__.py` manually. Requires `OpenCV 4`.
+
+## Update 1.5.5:
+
+  - Fix `ping` command
+
+### Update 1.5.4:
+
+  - Fix `help` with `ping` command
+
+### Update 1.5.3:
+
+  - New format for `ping` and `stats` command
+
+### Update 1.5.2:
+
+  - Fixes `heartbeat` command and adds `ping` command
+  - New `help` command and subcommands
+
 ### Update 1.5.1:
 
   - Merges @TotallyChase's PR
